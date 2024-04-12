@@ -1,0 +1,28 @@
+.navside {
+  background: url("../assets/bckgrd.jpg");
+  background-color: transparent;
+  width: 15%;
+  height: 94vh;
+  display: flex !important;
+  flex-direction: column;
+  position: relative;
+}
+.navNav {
+  text-decoration: none;
+  z-index: 2;
+  color: white !important;
+  cursor: pointer;
+  font-weight: 600;
+}
+.navNav:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlays1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,15 @@
+.adminHeader {
+  background-color: #128479;
+  height: 6vh;
+  position: relative;
+}
+.headerContent {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  height: 6vh;
+  width: 100%;
+}
+.headerText {
+  color: white !important;
+}
